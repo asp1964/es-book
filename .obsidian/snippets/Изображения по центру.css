@@ -1,0 +1,8 @@
+/* Встроенные изображения ![[…]] — по центру страницы,
+   в режиме чтения и в Live Preview. */
+
+.markdown-rendered p:has(> .internal-embed.image-embed),
+.markdown-rendered li:has(> .internal-embed.image-embed),
+.markdown-source-view.mod-cm6 .cm-line:has(.internal-embed.image-embed) {
+  text-align: center;
+}

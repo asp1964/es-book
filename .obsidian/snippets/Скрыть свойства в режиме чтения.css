@@ -1,0 +1,7 @@
+/* Скрывает заголовок «Properties» и кнопку «+ Add property»
+   только в режиме чтения; в Live Preview и source они остаются. */
+
+.markdown-reading-view .metadata-properties-heading,
+.markdown-reading-view .metadata-add-button {
+  display: none;
+}
