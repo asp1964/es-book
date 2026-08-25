@@ -1,0 +1,11 @@
+``` yaml
+name: 1.1.5 Настройка автоматической проверки
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  check:
+    uses: ant-lab-ru/es-test/.github/workflows/check-1-1-5.yml@master
+```
